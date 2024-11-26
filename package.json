@@ -1,0 +1,36 @@
+{
+  "name": "mazos-car-workshop",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "android": "ns run android",
+    "ios": "ns run ios",
+    "preview": "ns preview",
+    "postinstall": "setup-nativescript-stackblitz"
+  },
+  "dependencies": {
+    "@nativescript/core": "~8.6.0",
+    "@nativescript/theme": "~3.0.2",
+    "@react-native-async-storage/async-storage": "^1.22.3",
+    "@react-navigation/native": "^6.1.14",
+    "@react-navigation/stack": "^6.3.25",
+    "date-fns": "^3.3.1",
+    "nativescript-vue": "~2.9.3",
+    "@nativescript/firebase": "^13.0.0",
+    "react": "^18.3.1",
+    "react-nativescript": "^5.0.0",
+    "react-nativescript-navigation": "^5.0.0"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.6.2",
+    "@nativescript/ios": "8.6.1",
+    "@nativescript/types": "~8.6.0",
+    "@nativescript/webpack": "~5.0.18",
+    "@types/react": "^18.3.5",
+    "typescript": "^5.5.3"
+  },
+  "nativescript": {
+    "id": "org.mazoscar.workshop",
+    "templateVersion": "v8"
+  }
+}

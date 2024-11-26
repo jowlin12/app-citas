@@ -1,0 +1,39 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+.btn {
+    font-size: 18;
+    padding: 10;
+    margin: 10;
+    border-radius: 5;
+}
+
+.btn-primary {
+    background-color: #3B82F6;
+    color: white;
+}
+
+.btn-outline {
+    border-width: 1;
+    border-color: #3B82F6;
+    color: #3B82F6;
+}
+
+.input {
+    padding: 10;
+    margin: 10;
+    border-width: 1;
+    border-color: #E5E7EB;
+    border-radius: 5;
+}
+
+.appointment-card {
+    background-color: white;
+    border-radius: 10;
+    margin: 5 10;
+    elevation: 2;
+    shadow-color: black;
+    shadow-offset: 0 2;
+    shadow-opacity: 0.25;
+    shadow-radius: 3.84;
+}
